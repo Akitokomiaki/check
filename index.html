@@ -1,0 +1,45 @@
+<HTML>
+    <HEAD>
+    <TITLE>サンプル</TITLE>
+    <SCRIPT language="JavaScript" src="test.js"></SCRIPT></HEAD>
+    <BODY>
+<fieldset>
+    <legend>Q３ 点とAと重なる部分をBからJの中から選択しなさい。（複数選択可）</legend>
+  
+    <p>
+      <!-- 独自属性としてdata-answerを付与　0：不正解　1：正解 -->
+      <label><input type="checkbox" data-answer="0">B</label>
+      <label><input type="checkbox" data-answer="1">C</label>
+      <label><input type="checkbox" data-answer="0">D</label>
+      <label><input type="checkbox" data-answer="1">E</label>
+      <label><input type="checkbox" data-answer="0">F</label>
+      <label><input type="checkbox" data-answer="0">G</label>
+      <label><input type="checkbox" data-answer="0">H</label>
+      <label><input type="checkbox" data-answer="0">I</label>
+      <label><input type="checkbox" data-answer="0">J</label>
+    </p>
+  
+    <input type="button" onclick="checkAnswer(this.parentNode);" value="解答">
+  </fieldset>
+  
+  <fieldset>
+    <legend>Q2.例題　gigaschoolプロジェクトのメンバーは？（該当するメンバーを全て答えなさい） </legend>
+  
+    <p>
+      <label><input type="checkbox" data-answer="1">ゆーすけ</label>
+      <label><input type="checkbox" data-answer="1">かいち</label>
+      <label><input type="checkbox" data-answer="1">あきと</label>
+      <label><input type="checkbox" data-answer="1">森岡くん</label>
+      <label><input type="checkbox" data-answer="0">山田</label>
+      <label><input type="checkbox" data-answer="0">佐藤</label>
+      <label><input type="checkbox" data-answer="0">田中</label>
+      <label><input type="checkbox" data-answer="1">まさき</label>
+      <label><input type="checkbox" data-answer="1">今井くん</label>
+      <label><input type="checkbox" data-answer="1">金子くん</label>
+    </p>
+  
+    <input type="button" onclick="checkAnswer(this.parentNode);" value="解答">
+  </fieldset>
+</FORM>
+</BODY>
+</HTML>
